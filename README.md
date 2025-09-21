@@ -45,19 +45,6 @@ A **lightweight, modular, and secure microservice** that:
 * **API Security:** OAuth 2.0 (ABHA integration)
 * **External APIs:** WHO ICD-11 API, NAMASTE API
 
----
-
-## 📂 Repository Structure
-
-```bash
-AyushSetu/
-├── backend/           # Spring Boot services (FHIR, APIs, security)
-├── frontend/          # React-based UI/Extension
-├── database/          # PostgreSQL schemas & mappings
-├── docs/              # Documentation, presentations, references
-├── scripts/           # Utilities for deployment/setup
-└── README.md          # Project overview
-```
 
 ---
 
@@ -70,22 +57,6 @@ AyushSetu/
 * PostgreSQL 14+
 * Docker (optional for containerized deployment)
 
-### Steps
-
-```bash
-# Clone the repo
-git clone https://github.com/AlgoRangers/AyushSetu.git
-cd AyushSetu
-
-# Backend setup
-cd backend
-./mvnw spring-boot:run
-
-# Frontend setup
-cd frontend
-npm install
-npm start
-```
 
 ---
 
